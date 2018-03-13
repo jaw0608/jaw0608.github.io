@@ -1,0 +1,94 @@
+.headers{
+color:cyan;
+text-align:center;
+padding-bottom: 22px;
+margin-bottom:0px;
+}
+.body {
+	background-image: url("back.jpg");
+	background-size: cover;
+	background-position: 0,0;
+	min-height: 100%;
+	background-color: hsla(100,0%,0%,0.40);
+	background-blend-mode: overlay;
+}
+#resumeNotLoading {
+	padding-bottom:0; 
+	padding-top:0;
+	color: white;
+}
+.bod {
+	min-height: 100%;
+}
+#me {
+	display:block;
+	padding-top:0;
+	margin-top:0;
+	margin-left: auto;
+    margin-right: auto;
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+}
+
+h4 {
+	color: cyan;
+	padding-left: 20%;
+	font-family: "Arrial Black", Gadget, sans-serif;
+}
+.indented {
+	color:cyan;
+	padding-left: 22%;
+}
+.nav {
+	color: cyan;
+	margin:5;
+	text-align: center;
+}
+.nav a{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	color: cyan;
+	text-decoration: none;
+	font-family: "Arrial Black", Gadget, sans-serif;
+	font: 15px;
+	background-color: hsla(100,0%,0%,0.20);
+}
+.nav a:hover{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	color: white;
+	text-decoration: none;
+	font-family: "Arrial Black", Gadget, sans-serif;
+	font: 15px;
+}
+html {
+    /* To make use of full height of page*/
+    min-height: 100%;
+    margin: 0;
+}
+.links {
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+	height: 40px;
+	width:40px;
+	border-radius: 100%;
+}
+.centerblock {
+text-align: center;
+}
+h3 {
+	color: cyan;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+h5 {
+	color: cyan;
+	padding-left: 5%;
+	padding-right: 5%;
+}
