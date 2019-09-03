@@ -21,8 +21,10 @@ margin-bottom:0px;
 	margin-top:0;
 	margin-left: auto;
     margin-right: auto;
-	height: 22vh;
-	width: 22vh;
+	height: 22vmin;
+	width: 22vm; /*Fallback for IE */
+	width: 22vmin;
+	width: 22vmn; /*Fallback for IE */
 	border-radius: 50%;
 }
 
@@ -73,8 +75,10 @@ body {
 	display: inline-block;
 	margin-left: auto;
     margin-right: auto;
-	height: 11vh;
-	width:11vh;
+	height: 11vmin;
+	height: 11vm; /*Fallback for IE */
+	width:11vmin;
+	width:11vm; /*Fallback for IE */
 	border-radius: 100%;
 }
 .centerblock {
@@ -92,16 +96,4 @@ h5 {
 }
 #resume {
 	margin-left: 10%;
-}
-@media only screen and (orientation: portrait) {
-	.links {
-		height: 11vw;
-		width:11vw;
-		border-radius: 100%;
-	}
-	#me {
-		height: 22vw;
-		width: 22vw;
-		border-radius: 50%;
-	}
 }
