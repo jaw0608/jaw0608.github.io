@@ -11,7 +11,7 @@
 	background-size: cover;
 	background-position: 0,0;
 	min-height: 100%;
-	background-color: hsla(100,0%,0%,0.40);
+	background-color: hsla(100,0%,0%,0.52);
 	background-blend-mode: overlay;
 }
 .bod {
@@ -28,14 +28,6 @@
 	width: 22vmin;
 	width: 22vmn; /*Fallback for IE */
 	border-radius: 50%;
-}
-
-h4 {
-	color: cyan;
-	padding-left: 20%;
-	font-size: 2.5vmin;
-	font-size: 2.5vm;
-	font-family: "Arrial Black", Gadget, sans-serif;
 }
 .indented {
 	color:cyan;
@@ -89,13 +81,27 @@ h3 {
 	font-size: 3.2vmin;
 	font-size: 3.2vm;
 }
+h4 {
+	color: cyan;
+	padding-left: 20%;
+	text-indent: 3%;
+	font-size: 2.7vmin;
+	font-size: 2.7vm;
+	font-family: "Arrial Black", Gadget, sans-serif;
+}
 h5 {
 	color: cyan;
-	padding-left: 5%;
+	padding-left: 3%;
 	padding-right: 5%;
 	font-size: 2.5vmin;
 	font-size: 2.5vm;
 }
 #resume {
 	margin-left: 10%;
+}
+li {
+	color: cyan;
+	font-size: 2.4vmin;
+	list-style: decimal;
+	font-size: 2.4vm;
 }
