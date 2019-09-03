@@ -2,7 +2,16 @@
 <html>
 <link rel="stylesheet" type="text/css" href="../css/style.css"/>
 <head>
-
+<style>
+.body {
+	background-image: linear-gradient(to right, rgba(0,255,255,0.0), rgba(0,255,255,0.8));
+	background-size: cover;
+	background-position: 0% 0%;
+	min-height: 100%;
+	background-color: hsla(100,0%,0%,0.40);
+	background-blend-mode: overlay;
+}
+</style>
 <title> Joseph Wilson's Resume </title>
 <link rel="icon" href="../img/fav.ico">
 <div class="nav">
@@ -11,6 +20,6 @@
 </head>
 <body class="body">
 <br>
-<iframe id="resume" src="../resume.pdf" width="95%" height="100%">
+<object id="resume" width="80%" height=1200px data="../resume.pdf"></object>
 </body>
 </html>
