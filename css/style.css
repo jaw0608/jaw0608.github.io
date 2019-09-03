@@ -1,8 +1,10 @@
 .headers{
-color:cyan;
-text-align:center;
-padding-bottom: 22px;
-margin-bottom:0px;
+	color:cyan;
+	text-align:center;
+	padding-bottom: 22px;
+	margin-bottom:0px;
+	font-size: 4.5vmin;
+	font-size: 4.5vm;
 }
 .body {
 	background-image: url("../img/back.jpg");
@@ -31,6 +33,8 @@ margin-bottom:0px;
 h4 {
 	color: cyan;
 	padding-left: 20%;
+	font-size: 2.5vmin;
+	font-size: 2.5vm;
 	font-family: "Arrial Black", Gadget, sans-serif;
 }
 .indented {
@@ -88,11 +92,15 @@ h3 {
 	color: cyan;
 	padding-left: 5%;
 	padding-right: 5%;
+	font-size: 3.2vmin;
+	font-size: 3.2vm;
 }
 h5 {
 	color: cyan;
 	padding-left: 5%;
 	padding-right: 5%;
+	font-size: 2.5vmin;
+	font-size: 2.5vm;
 }
 #resume {
 	margin-left: 10%;
