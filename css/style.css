@@ -1,7 +1,8 @@
 .headers{
 	color:cyan;
 	text-align:center;
-	padding-bottom: 22px;
+	padding-bottom: 2vmin;
+	padding-bottom: 2vm;
 	margin-bottom:0px;
 	font-size: 4.5vmin;
 	font-size: 4.5vm;
@@ -86,8 +87,8 @@ h4 {
 	color: cyan;
 	padding-left: 20%;
 	text-indent: 3%;
-	font-size: 2.7vmin;
-	font-size: 2.7vm;
+	font-size: 2.6vmin;
+	font-size: 2.6vm;
 	font-family: "Arrial Black", Gadget, sans-serif;
 }
 h5 {
