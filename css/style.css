@@ -9,12 +9,10 @@
 	margin-top: 0;
 }
 .body {
-	background-image: url("../img/back.jpg");
+
 	background-size: cover;
 	background-position: 0,0;
 	min-height: 100%;
-	background-color: hsla(100,0%,0%,0.52);
-	background-blend-mode: overlay;
 }
 .bod {
 	min-height: 100%;
@@ -57,8 +55,15 @@
 }
 html {
     /* To make use of full height of page*/
-    min-height: 100%;
-    margin: 0;
+  background: url(../img/back.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	background-color: hsla(100,0%,0%,0.52);
+	background-blend-mode: overlay;
+  min-height: 100%;
+  margin: 0;
 }
 body {
     height: 90vh;
