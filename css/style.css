@@ -7,6 +7,8 @@
 	font-size: 4.5vmin;
 	font-size: 4.5vm;
 	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
 }
 .body {
 
@@ -29,10 +31,10 @@
 	width: 22vmn; /*Fallback for IE */
 	border-radius: 50%;
 }
-.indented {
+/* .indented {
 	color:cyan;
 	padding-left: 22%;
-}
+} */
 .nav {
 	color: cyan;
 	margin:5;
@@ -53,40 +55,27 @@
 .nav a:hover{
 	color: white;
 }
-#wholediv {
-	width: 100%;
-height: 100%;
-position: fixed;
-top: 0;
-left: 0;
-z-index: 0;
-background-image: url(../img/back.jpg) ;
-background-repeat:no-repeat;
-background-position: center center;
-/* background-attachment: fixed; removed for Android */
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-	background-size: cover;
-	background-color: hsla(100,0%,0%,0.52);
-	background-blend-mode: overlay; */
-}
 html {
     /* To make use of full height of page*/
-  /* background: url(../img/back.jpg) no-repeat center center fixed;
+  background: url(../img/back.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
 	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/post_bg.jpg', sizingMethod='scale')";
   background-size: cover;
 	background-color: hsla(100,0%,0%,0.52);
-	background-blend-mode: overlay; */
+	background-blend-mode: overlay;
   min-height: 100%;
   margin: 0;
 }
 body {
-    height: 90vh;
+	height:100%;
+	width:100%;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center center;
+	background-attachment:fixed;
+	margin: 0;
 }
 .links {
 	display: inline-block;
@@ -103,8 +92,8 @@ text-align: center;
 }
 h3 {
 	color: cyan;
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 0%;
+	padding-right: 0%;
 	font-size: 3.2vmin;
 	font-size: 3.2vm;
 }
