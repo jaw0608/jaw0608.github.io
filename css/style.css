@@ -2,22 +2,11 @@
 	color:cyan;
 	text-align:center;
 	padding-bottom: 2vmin;
-	padding-bottom: 2vm;
 	margin-bottom:0px;
 	font-size: 4.5vmin;
-	font-size: 4.5vm;
 	margin-top: 0;
 	margin-left: 0;
 	margin-right: 0;
-}
-.body {
-
-	background-size: cover;
-	background-position: 0,0;
-	min-height: 100%;
-}
-.bod {
-	min-height: 100%;
 }
 #me {
 	display:block;
@@ -26,31 +15,23 @@
 	margin-left: auto;
     margin-right: auto;
 	height: 22vmin;
-	width: 22vm; /*Fallback for IE */
 	width: 22vmin;
-	width: 22vmn; /*Fallback for IE */
 	border-radius: 50%;
 }
-/* .indented {
-	color:cyan;
-	padding-left: 22%;
-} */
 .nav {
 	color: cyan;
-	margin:5;
 	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 0%;
+	margin: 0;
 }
 .nav a{
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-bottom: 5px;
-	padding-top: 5px;
+	padding-left: 1vmin;
+	padding-right: 1vmin;
 	color: cyan;
 	text-decoration: none;
 	font-family: "Arrial Black", Gadget, sans-serif;
 	font-size: 2.5vmin;
-	font-size: 2.5vm;
-	background-color: hsla(100,0%,0%,0.20);
 }
 .nav a:hover{
 	color: white;
@@ -65,29 +46,30 @@ html {
   -o-background-size: cover;
 	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/post_bg.jpg', sizingMethod='scale')";
   background-size: cover;
-	background-color: hsla(100,0%,0%,0.52);
-	background-blend-mode: overlay;
+
   min-height: 100%;
   margin: 0;
 }
 body {
-	height:100%;
-	width:100%;
+	width:80%;
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-position: center center;
-	margin: 0;
-	min-height: 100%;
+	background-color: hsla(100,0%,0%,0.52);
+	background-blend-mode: overlay;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 1%;
+	margin-bottom: 1%;
 }
 .links {
 	display: inline-block;
 	margin-left: auto;
-    margin-right: auto;
+  margin-right: auto;
 	height: 11vmin;
-	height: 11vm; /*Fallback for IE */
 	width:11vmin;
-	width:11vm; /*Fallback for IE */
 	border-radius: 100%;
+	margin-bottom: 5vmin;
 }
 .centerblock {
 text-align: center;
@@ -97,14 +79,12 @@ h3 {
 	padding-left: 0%;
 	padding-right: 0%;
 	font-size: 3.2vmin;
-	font-size: 3.2vm;
 }
 h4 {
 	color: cyan;
 	padding-left: 20%;
 	text-indent: 3%;
 	font-size: 2.6vmin;
-	font-size: 2.6vm;
 	font-family: "Arrial Black", Gadget, sans-serif;
 }
 h5 {
@@ -112,7 +92,6 @@ h5 {
 	padding-left: 3%;
 	padding-right: 5%;
 	font-size: 2.5vmin;
-	font-size: 2.5vm;
 }
 #resume {
 	margin-left: 10%;
@@ -121,5 +100,4 @@ li {
 	color: cyan;
 	font-size: 2.4vmin;
 	list-style: decimal;
-	font-size: 2.4vm;
 }
