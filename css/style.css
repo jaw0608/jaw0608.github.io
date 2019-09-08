@@ -46,7 +46,8 @@ html {
   -o-background-size: cover;
 	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/post_bg.jpg', sizingMethod='scale')";
   background-size: cover;
-
+	background-color: hsla(100,0%,0%,0.25);
+	background-blend-mode: overlay;
   min-height: 100%;
   margin: 0;
 }
@@ -55,7 +56,7 @@ body {
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-position: center center;
-	background-color: hsla(100,0%,0%,0.52);
+	background-color: hsla(100,0%,0%,0.55);
 	background-blend-mode: overlay;
 	margin-left: 5%;
 	margin-right: 5%;
