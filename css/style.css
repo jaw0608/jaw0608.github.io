@@ -156,6 +156,7 @@ li {
 }
 figure {
 	display: inline-block;
+	margin: 2vmin;
 }
 #selected {
 	background-color: rgba(240,20 ,20, 0.5);
