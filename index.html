@@ -7,7 +7,7 @@
 </head>
 <body class="body">
 <div class="nav">
-<a href="index.html">Home Page </a> <a href="pages/resume.html"> Resume </a> <a href="pages/projects.html">Projects </a> <a href="pages/about.html"> My Story </a>
+<div id = "selected"><a href="index.html">Home Page </a></div> <div><a href="pages/resume.html"> Resume </a></div> <div><a href="pages/projects.html">Projects </a></div> <div><a href="pages/about.html"> My Programming Story </a></div>
 </div>
 <br>
  <h1 class="headers"> Joseph Wilson <br> <img id="me" src="img/joe.jpeg"> </h1>
@@ -21,4 +21,7 @@
 	<a href="https://stonybrook.joinhandshake.com/users/7890613"><img class="links" src="img/hand.png"></a>
  </div>
 </body>
+<script>
+document.getElementById("selected").onclick = function(){location.reload();};
+</script>
 </html>
