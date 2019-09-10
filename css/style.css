@@ -1,9 +1,9 @@
 .headers{
 	color:cyan;
 	text-align:center;
-	padding-bottom: 1.3vmin;
+	padding-bottom: 1.0vmin;
 	margin-bottom:0px;
-	font-size: 4.3vmin;
+	font-size: 4.1vmin;
 	margin-top: 0;
 	margin-left: 0;
 	margin-right: 0;
@@ -78,7 +78,7 @@ body {
 	height: 11vmin;
 	width:11vmin;
 	border-radius: 100%;
-	margin-bottom: 2%;
+	margin-bottom: 0%;
 }
 .centerblock {
 text-align: center;
